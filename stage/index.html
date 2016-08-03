@@ -1,0 +1,295 @@
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>sphinxcontrib-disqus 1.0.0 &mdash; sphinxcontrib-disqus</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="sphinxcontrib-disqus" href="#"/>
+        <link rel="next" title="Installation" href="install.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="#" class="icon icon-home"> sphinxcontrib-disqus
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">General</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Appendix</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">sphinxcontrib-disqus</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="#">Docs</a> &raquo;</li>
+      
+    <li>sphinxcontrib-disqus 1.0.0</li>
+    <li class="wy-breadcrumbs-aside">
+      
+          
+          
+            <a href="https://github.com/Robpol86/sphinxcontrib-disqus/blob/stage/docs/index.rst" class="fa fa-github"> Edit on GitHub</a>
+          
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="sphinxcontrib-disqus-version">
+<h1>sphinxcontrib-disqus 1.0.0<a class="headerlink" href="#sphinxcontrib-disqus-version" title="Permalink to this headline">¶</a></h1>
+<p>Add <a class="reference external" href="https://disqus.com">Disqus</a> comments to your Sphinx documents.</p>
+<p><code class="docutils literal"><span class="pre">sphinxcontrib-disqus</span></code> provides a <code class="docutils literal"><span class="pre">disqus</span></code> directive to be used in documents. It automatically adds the Javascript
+needed by Disqus. A working example is shown at the bottom of this page.</p>
+<div class="section" id="project-links">
+<h2>Project Links<a class="headerlink" href="#project-links" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Documentation: <a class="reference external" href="https://robpol86.github.io/sphinxcontrib-disqus">https://robpol86.github.io/sphinxcontrib-disqus</a></li>
+<li>Source code: <a class="reference external" href="https://github.com/Robpol86/sphinxcontrib-disqus">https://github.com/Robpol86/sphinxcontrib-disqus</a></li>
+<li>PyPI homepage: <a class="reference external" href="https://pypi.python.org/pypi/sphinxcontrib-disqus">https://pypi.python.org/pypi/sphinxcontrib-disqus</a></li>
+</ul>
+</div>
+<div class="section" id="caveats">
+<h2>Caveats<a class="headerlink" href="#caveats" title="Permalink to this headline">¶</a></h2>
+<p>When generating Sphinx documents locally and browsing to a <code class="docutils literal"><span class="pre">file://</span></code> URL, comments won&#8217;t load. This is because the
+second batch of Javascript code downloaded by Disqus matches the same protocol the browser is using to visit the page
+you&#8217;re on (in this case it&#8217;s <code class="docutils literal"><span class="pre">file://</span></code>). For security reasons Javascript doesn&#8217;t load from <code class="docutils literal"><span class="pre">file://</span></code>, only
+<code class="docutils literal"><span class="pre">http://</span></code> or <code class="docutils literal"><span class="pre">https://</span></code>.</p>
+<p>A simple workaround when you&#8217;re writing docs locally (this isn&#8217;t an issue once you host your documentation on a web
+server or service such as <a class="reference external" href="https://readthedocs.org/">Read the Docs</a>) is to view your HTML files through a simple web
+server. You can fire one up easily running these commands (tested on OS X) after building your HTML files:</p>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">cd</span> <span class="pre">docs/_build/html</span></code></li>
+<li><code class="docutils literal"><span class="pre">python</span> <span class="pre">-m</span> <span class="pre">SimpleHTTPServer</span> <span class="pre">8080</span></code></li>
+<li>Browse to <a class="reference external" href="http://localhost:8080/">http://localhost:8080/</a></li>
+</ol>
+<div class="toctree-wrapper compound" id="general">
+<p class="caption"><span class="caption-text">General</span><a class="headerlink" href="#general" title="Permalink to this toctree">¶</a></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="install.html#pip-install">Pip Install</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#latest-from-github">Latest from GitHub</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#clone-and-install">Clone and Install</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#configuration">Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#use-in-documents">Use In Documents</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="usage.html#automatic">Automatic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="usage.html#manual">Manual</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound" id="appendix">
+<p class="caption"><span class="caption-text">Appendix</span><a class="headerlink" href="#appendix" title="Permalink to this toctree">¶</a></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="comments">
+<h2>Comments<a class="headerlink" href="#comments" title="Permalink to this headline">¶</a></h2>
+<div data-disqus-identifier="index" data-disqus-shortname="sphinxcontrib-disqus" id="disqus_thread"></div></div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="install.html" class="btn btn-neutral float-right" title="Installation" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, @Robpol86.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+        <span class="fa fa-book"> Other Versions</span>
+        v: stage
+        <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+        <dl>
+            <dt>Tags</dt>
+            <dd><a href="../index.html">v1.0.0</a></dd>
+        </dl>
+        <dl>
+            <dt>Branches</dt>
+            <dd><a href="../easy_fix/index.html">easy_fix</a></dd>
+            <dd><a href="../stage/index.html">stage</a></dd>
+            <dd><a href="../master/index.html">master</a></dd>
+        </dl>
+    </div>
+</div>
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.0.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  false
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/disqus.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
