@@ -93,3 +93,4 @@ ENV/
 *.rpm
 .idea/
 requirements*.txt
+locales
