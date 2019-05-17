@@ -20,10 +20,10 @@ extensions = list()
 
 # Options for HTML output.
 html_context = dict(
-    conf_py_path='/docs/',
+    conf_py_path='/source/',
     display_github=True,
     github_repo=os.environ.get('TRAVIS_REPO_SLUG', '/' + project).split('/', 1)[1],
-    github_user=os.environ.get('TRAVIS_REPO_SLUG', 'robpol86/').split('/', 1)[0],
+    github_user=os.environ.get('TRAVIS_REPO_SLUG', 'wdk-docs/').split('/', 1)[0],
     github_version=os.environ.get('TRAVIS_BRANCH', 'master'),
     source_suffix='.rst',
 )
@@ -41,6 +41,8 @@ disqus_shortname = project
 # google analytics
 extensions.append('sphinxcontrib.googleanalytics')
 googleanalytics_id = 'UA-82627369-1'
+
+extensions.append('sphinx.ext.githubpages')
 
 # SCVersioning.
 scv_banner_greatest_tag = True

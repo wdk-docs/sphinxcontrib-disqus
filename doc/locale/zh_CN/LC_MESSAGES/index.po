@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, @Robpol86
+# This file is distributed under the same license as the
+# sphinxcontrib-disqus package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinxcontrib-disqus 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-17 22:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../doc/index.rst:33
+msgid "General"
+msgstr "一般"
+
+#: ../../doc/index.rst:40
+msgid "Appendix"
+msgstr "附录"
+
+#: ../../doc/index.rst:3
+msgid "sphinxcontrib-disqus |version|"
+msgstr "sphinxcontrib-disqus |version|"
+
+#: ../../doc/index.rst:5
+msgid "Add `Disqus <https://disqus.com>`_ comments to your Sphinx documents."
+msgstr "在您的Sphinx文档中添加 `Disqus <https://disqus.com>`_ 评论。"
+
+#: ../../doc/index.rst:7
+msgid ""
+"``sphinxcontrib-disqus`` provides a ``disqus`` directive to be used in "
+"documents. It automatically adds the Javascript needed by Disqus. A "
+"working example is shown at the bottom of this page."
+msgstr ""
+"``sphinxcontrib-disqus`` 提供了一个``disqus`` 指令，用于文档。 它会自动添加 Disqus 所需的 "
+"Javascript。本页底部显示了一个工作示例。"
+
+#: ../../doc/index.rst:11
+msgid "Project Links"
+msgstr "项目链接"
+
+#: ../../doc/index.rst:13
+#, fuzzy
+msgid "Documentation: https://wdk-docs.github.io/sphinxcontrib-disqus"
+msgstr "文档: https://robpol86.github.io/sphinxcontrib-disqus"
+
+#: ../../doc/index.rst:14
+#, fuzzy
+msgid "Source code: https://github.com/wdk-docs/sphinxcontrib-disqus"
+msgstr "源代码: https://github.com/Robpol86/sphinxcontrib-disqus"
+
+#: ../../doc/index.rst:15
+msgid "PyPI homepage: https://pypi.python.org/pypi/sphinxcontrib-disqus"
+msgstr "PyPI 主页: https://pypi.python.org/pypi/sphinxcontrib-disqus"
+
+#: ../../doc/index.rst:18
+msgid "Caveats"
+msgstr "注意事项"
+
+#: ../../doc/index.rst:20
+msgid ""
+"When generating Sphinx documents locally and browsing to a ``file://`` "
+"URL, comments won't load. This is because the second batch of Javascript "
+"code downloaded by Disqus matches the same protocol the browser is using "
+"to visit the page you're on (in this case it's ``file://``). For security"
+" reasons Javascript doesn't load from ``file://``, only ``http://`` or "
+"``https://``."
+msgstr ""
+"在本地生成Sphinx文档并浏览到 ``file://`` URL时，不会加载注释。 "
+"这是因为Disqus下载的第二批Javascript代码与浏览器用于访问您所在页面的相同协议相匹配(在这种情况下，它是 ``file://``)。"
+" 出于安全原因，Javascript不会从 ``file://`` 加载，只能从 ``http://`` 或 ``https://`` 加载。"
+
+#: ../../doc/index.rst:25
+msgid ""
+"A simple workaround when you're writing docs locally (this isn't an issue"
+" once you host your documentation on a web server or service such as "
+"`Read the Docs <https://readthedocs.org/>`_) is to view your HTML files "
+"through a simple web server. You can fire one up easily running these "
+"commands (tested on OS X) after building your HTML files:"
+msgstr ""
+"在本地编写文档时的一个简单的解决方法(一旦将文档托管在Web服务器或服务上，例如 `阅读文档 "
+"<https://readthedocs.org/>`_)，这不是问题”您的HTML文件通过简单的Web服务器。 "
+"在构建HTML文件后，您可以轻松运行这些命令(在OS X上测试)："
+
+#: ../../doc/index.rst:29
+msgid "``cd docs/_build/html``"
+msgstr "``cd docs/_build/html``"
+
+#: ../../doc/index.rst:30
+msgid "``python -m SimpleHTTPServer 8080``"
+msgstr "``python -m SimpleHTTPServer 8080``"
+
+#: ../../doc/index.rst:31
+msgid "Browse to http://localhost:8080/"
+msgstr "浏览到 http://localhost:8080/"
+
+#: ../../doc/index.rst:47
+msgid "Comments"
+msgstr "评论"
+

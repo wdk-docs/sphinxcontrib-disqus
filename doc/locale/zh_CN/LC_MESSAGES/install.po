@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, @Robpol86
+# This file is distributed under the same license as the
+# sphinxcontrib-disqus package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinxcontrib-disqus 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-17 22:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../doc/install.rst:5
+msgid "Installation"
+msgstr "安装"
+
+#: ../../doc/install.rst:7
+msgid ""
+"Getting started is pretty simple. The first step is to install the "
+"library."
+msgstr "入门非常简单。第一步是安装库。"
+
+#: ../../doc/install.rst:10
+msgid "Pip Install"
+msgstr "Pip 安装"
+
+#: ../../doc/install.rst:12
+msgid ""
+"The easiest way to get sphinxcontrib-disqus is to use `pip "
+"<https://pip.pypa.io>`_. Simply run this command."
+msgstr "获取 sphinxcontrib-disqus 的最简单方法是使用 `pip <https://pip.pypa.io>`_ 。只需运行此命令即可。"
+
+#: ../../doc/install.rst:19
+msgid "Latest from GitHub"
+msgstr "来自 GitHub 的最新消息"
+
+#: ../../doc/install.rst:21
+msgid ""
+"You can also elect to install the latest bleeding-edge version by using "
+"pip to install directly from the GitHub repository."
+msgstr "您还可以选择使用 pip 直接从 GitHub 存储库安装最新的前沿版本。"
+
+#: ../../doc/install.rst:29
+msgid "Clone and Install"
+msgstr "克隆并安装"
+
+#: ../../doc/install.rst:31
+#, fuzzy
+msgid ""
+"Lastly you can also just clone the repo and install from it. Usually you "
+"only need to do this if you plan on `contributing <https://github.com"
+"/wdk-docs/sphinxcontrib-disqus/blob/master/CONTRIBUTING.md>`_ to the "
+"project."
+msgstr ""
+"最后，您还可以克隆存储库并从中进行安装。 通常，如果您计划在项目中 `贡献 <https://github.com/Robpol86"
+"/sphinxcontrib-disqus/blob/master/CONTRIBUTING.md>`_ ，您只需要这样做。"
+

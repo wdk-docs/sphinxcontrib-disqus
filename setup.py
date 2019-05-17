@@ -13,7 +13,7 @@ IMPORT = 'sphinxcontrib.disqus'
 INSTALL_REQUIRES = ['sphinx']
 LICENSE = 'MIT'
 NAME = 'sphinxcontrib-disqus'
-VERSION = '1.1.0'
+VERSION = '2.0.19'
 
 
 def readme(path='README.rst'):
@@ -26,7 +26,7 @@ def readme(path='README.rst'):
     """
     path = os.path.realpath(os.path.join(os.path.dirname(__file__), path))
     handle = None
-    url_prefix = 'https://raw.githubusercontent.com/Robpol86/{name}/v{version}/'.format(name=NAME, version=VERSION)
+    url_prefix = 'https://raw.githubusercontent.com/wdk-docs/{name}/v{version}/'.format(name=NAME, version=VERSION)
     try:
         handle = codecs.open(path, encoding='utf-8')
         return handle.read(131072).replace('.. image:: docs', '.. image:: {0}docs'.format(url_prefix))
@@ -56,7 +56,7 @@ class CheckVersion(Command):
     def run(cls):
         """Check variables."""
         project = __import__(IMPORT, fromlist=[''])
-        for expected, var in [('@Robpol86', '__author__'), (LICENSE, '__license__'), (VERSION, '__version__')]:
+        for expected, var in [('@BandCap', '__author__'), (LICENSE, '__license__'), (VERSION, '__version__')]:
             if getattr(project, var) != expected:
                 raise SystemExit('Mismatch: {0}'.format(var))
         # Check changelog.
@@ -73,8 +73,8 @@ class CheckVersion(Command):
 
 
 setup(
-    author='@Robpol86',
-    author_email='robpol86@gmail.com',
+    author='@BandCap',
+    author_email='bandcap@d3f.pw',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: MacOS X',
@@ -103,7 +103,7 @@ setup(
     name=NAME,
     package_data={'': [os.path.join('_static', 'disqus.js')]},
     packages=['sphinxcontrib'],
-    url='https://github.com/Robpol86/' + NAME,
+    url='https://github.com/wdk-docs/' + NAME,
     version=VERSION,
     zip_safe=False,
 )

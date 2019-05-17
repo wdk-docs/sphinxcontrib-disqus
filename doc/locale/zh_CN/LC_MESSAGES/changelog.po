@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, @Robpol86
+# This file is distributed under the same license as the
+# sphinxcontrib-disqus package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinxcontrib-disqus 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-17 21:42+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../README.rst:4
+msgid "Changelog"
+msgstr "更新日志"
+
+#: ../../README.rst:6
+msgid "This project adheres to `Semantic Versioning <http://semver.org/>`_."
+msgstr "该项目遵循 `语义版本控制 <http://semver.org/>`_."
+
+#: ../../README.rst:9
+msgid "2.0.19 - 2019-05-17"
+msgstr "2.0.19 - 2019-05-17"
+
+#: ../../README.rst:12 ../../README.rst:24
+msgid "Fixed"
+msgstr "修复"
+
+#: ../../README.rst:12
+msgid "change sphinx.application to sphinx.errors"
+msgstr "将sphinx.application更改为sphinx.errors"
+
+#: ../../README.rst:15
+msgid "1.1.0 - 2016-08-04"
+msgstr "1.1.0 - 2016-08-04"
+
+#: ../../README.rst:18
+msgid "Added"
+msgstr "添加"
+
+#: ../../README.rst:18
+msgid "Python 3.5 support (Linux/OS X and Windows)."
+msgstr "Python 3.5支持（Linux / OS X和Windows）。"
+
+#: ../../README.rst:21
+msgid "easy_install: https://bitbucket.org/birkenfeld/sphinx-contrib/issues/155/"
+msgstr "easy_install: https://bitbucket.org/birkenfeld/sphinx-contrib/issues/155/"
+
+#: ../../README.rst:22
+msgid "https://github.com/Robpol86/sphinxcontrib-disqus/issues/2"
+msgstr "https://github.com/Robpol86/sphinxcontrib-disqus/issues/2"
+
+#: ../../README.rst:23
+msgid "https://github.com/Robpol86/sphinxcontrib-disqus/issues/1"
+msgstr "https://github.com/Robpol86/sphinxcontrib-disqus/issues/1"
+
+#: ../../README.rst:24
+msgid "https://github.com/Robpol86/sphinxcontrib-disqus/issues/3"
+msgstr "https://github.com/Robpol86/sphinxcontrib-disqus/issues/3"
+
+#: ../../README.rst:27
+msgid "1.0.0 - 2015-07-31"
+msgstr "1.0.0 - 2015-07-31"
+
+#: ../../README.rst:29
+msgid "Initial release."
+msgstr "初始发行。"
+

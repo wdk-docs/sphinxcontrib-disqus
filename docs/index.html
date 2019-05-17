@@ -1,0 +1,280 @@
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-82627369-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>sphinxcontrib-disqus 2.0.19 &mdash; sphinxcontrib-disqus</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+        <script type="text/javascript" src="_static/disqus.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="安装" href="install.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> sphinxcontrib-disqus
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.0.19
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">一般</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="install.html">安装</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">用法</a></li>
+</ul>
+<p class="caption"><span class="caption-text">附录</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">更新日志</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">sphinxcontrib-disqus</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>sphinxcontrib-disqus 2.0.19</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/wdk-docs/sphinxcontrib-disqus/blob/master/source/index.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="sphinxcontrib-disqus-version">
+<h1>sphinxcontrib-disqus 2.0.19<a class="headerlink" href="#sphinxcontrib-disqus-version" title="永久链接至标题">¶</a></h1>
+<p>在您的Sphinx文档中添加 <a class="reference external" href="https://disqus.com">Disqus</a> 评论。</p>
+<p><code class="docutils literal notranslate"><span class="pre">sphinxcontrib-disqus</span></code> 提供了一个``disqus`` 指令，用于文档。 它会自动添加 Disqus 所需的 Javascript。本页底部显示了一个工作示例。</p>
+<div class="section" id="project-links">
+<h2>项目链接<a class="headerlink" href="#project-links" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Documentation: <a class="reference external" href="https://wdk-docs.github.io/sphinxcontrib-disqus">https://wdk-docs.github.io/sphinxcontrib-disqus</a></p></li>
+<li><p>Source code: <a class="reference external" href="https://github.com/wdk-docs/sphinxcontrib-disqus">https://github.com/wdk-docs/sphinxcontrib-disqus</a></p></li>
+<li><p>PyPI 主页: <a class="reference external" href="https://pypi.python.org/pypi/sphinxcontrib-disqus">https://pypi.python.org/pypi/sphinxcontrib-disqus</a></p></li>
+</ul>
+</div>
+<div class="section" id="caveats">
+<h2>注意事项<a class="headerlink" href="#caveats" title="永久链接至标题">¶</a></h2>
+<p>在本地生成Sphinx文档并浏览到 <code class="docutils literal notranslate"><span class="pre">file://</span></code> URL时，不会加载注释。 这是因为Disqus下载的第二批Javascript代码与浏览器用于访问您所在页面的相同协议相匹配(在这种情况下，它是 <code class="docutils literal notranslate"><span class="pre">file://</span></code>)。 出于安全原因，Javascript不会从 <code class="docutils literal notranslate"><span class="pre">file://</span></code> 加载，只能从 <code class="docutils literal notranslate"><span class="pre">http://</span></code> 或 <code class="docutils literal notranslate"><span class="pre">https://</span></code> 加载。</p>
+<p>在本地编写文档时的一个简单的解决方法(一旦将文档托管在Web服务器或服务上，例如 <a class="reference external" href="https://readthedocs.org/">阅读文档</a>)，这不是问题”您的HTML文件通过简单的Web服务器。 在构建HTML文件后，您可以轻松运行这些命令(在OS X上测试)：</p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">docs/_build/html</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">-m</span> <span class="pre">SimpleHTTPServer</span> <span class="pre">8080</span></code></p></li>
+<li><p>浏览到 <a class="reference external" href="http://localhost:8080/">http://localhost:8080/</a></p></li>
+</ol>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">一般</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="install.html">安装</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="install.html#pip-install">Pip 安装</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#latest-from-github">来自 GitHub 的最新消息</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#clone-and-install">克隆并安装</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">用法</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#installation">安装</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#configuration">配置</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#use-in-documents">在文档中使用</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="usage.html#automatic">自动</a></li>
+<li class="toctree-l3"><a class="reference internal" href="usage.html#manual">手册</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">附录</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">更新日志</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="comments">
+<h2>评论<a class="headerlink" href="#comments" title="永久链接至标题">¶</a></h2>
+<div data-disqus-identifier="index" data-disqus-shortname="sphinxcontrib-disqus" id="disqus_thread"></div></div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="install.html" class="btn btn-neutral float-right" title="安装" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, @BandCap
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

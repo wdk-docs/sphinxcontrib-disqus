@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, @Robpol86
+# This file is distributed under the same license as the
+# sphinxcontrib-disqus package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinxcontrib-disqus 2.0.19\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-17 22:10+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../doc/install.rst:5
+msgid "Installation"
+msgstr ""
+
+#: ../../doc/install.rst:7
+msgid ""
+"Getting started is pretty simple. The first step is to install the "
+"library."
+msgstr ""
+
+#: ../../doc/install.rst:10
+msgid "Pip Install"
+msgstr ""
+
+#: ../../doc/install.rst:12
+msgid ""
+"The easiest way to get sphinxcontrib-disqus is to use `pip "
+"<https://pip.pypa.io>`_. Simply run this command."
+msgstr ""
+
+#: ../../doc/install.rst:19
+msgid "Latest from GitHub"
+msgstr ""
+
+#: ../../doc/install.rst:21
+msgid ""
+"You can also elect to install the latest bleeding-edge version by using "
+"pip to install directly from the GitHub repository."
+msgstr ""
+
+#: ../../doc/install.rst:29
+msgid "Clone and Install"
+msgstr ""
+
+#: ../../doc/install.rst:31
+msgid ""
+"Lastly you can also just clone the repo and install from it. Usually you "
+"only need to do this if you plan on `contributing "
+"<https://github.com/Robpol86/sphinxcontrib-"
+"disqus/blob/master/CONTRIBUTING.md>`_ to the project."
+msgstr ""
+

@@ -41,6 +41,12 @@ Changelog
 
 This project adheres to `Semantic Versioning <http://semver.org/>`_.
 
+2.0.19 - 2019-05-17
+------------------------
+
+Fixed
+    * change sphinx.application to sphinx.errors
+
 1.1.0 - 2016-08-04
 ------------------
 

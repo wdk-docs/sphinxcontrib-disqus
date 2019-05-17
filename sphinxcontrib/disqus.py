@@ -1,7 +1,7 @@
 """Sphinx extension that embeds Disqus comments in documents.
 
 https://sphinxcontrib-disqus.readthedocs.org
-https://github.com/Robpol86/sphinxcontrib-disqus
+https://github.com/wdk-docs/sphinxcontrib-disqus
 https://pypi.python.org/pypi/sphinxcontrib-disqus
 """
 
@@ -14,9 +14,9 @@ from docutils import nodes
 from docutils.parsers.rst import Directive
 from sphinx.errors import ExtensionError, SphinxError
 
-__author__ = '@Robpol86'
+__author__ = '@BandCap'
 __license__ = 'MIT'
-__version__ = '1.1.0'
+__version__ = '2.0.19'
 RE_SHORTNAME = re.compile('^[a-zA-Z0-9-]{3,50}$')
 STATIC_DIR = os.path.join(os.path.dirname(__file__), '_static')
 

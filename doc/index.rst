@@ -10,8 +10,8 @@ needed by Disqus. A working example is shown at the bottom of this page.
 Project Links
 =============
 
-* Documentation: https://robpol86.github.io/sphinxcontrib-disqus
-* Source code: https://github.com/Robpol86/sphinxcontrib-disqus
+* Documentation: https://wdk-docs.github.io/sphinxcontrib-disqus
+* Source code: https://github.com/wdk-docs/sphinxcontrib-disqus
 * PyPI homepage: https://pypi.python.org/pypi/sphinxcontrib-disqus
 
 Caveats
