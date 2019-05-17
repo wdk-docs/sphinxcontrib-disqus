@@ -47,3 +47,7 @@ scv_banner_greatest_tag = True
 scv_grm_exclude = ('.gitignore', '.nojekyll', 'README.rst')
 scv_show_banner = True
 scv_sort = ('semver', 'time')
+
+language = 'zh_CN'
+locale_dirs = ['locale/']
+gettext_compact = False
